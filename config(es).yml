@@ -1,0 +1,27 @@
+###################################################
+#                                                 #
+#    Plugin creado por MerzeevaStudios            #
+#                                                 #
+#    Detalles de donación (para el café ☕):       #
+#    Tarjeta: 2202 2085 8741 4815                 #
+#                                                 #
+###################################################
+
+# Idioma principal del plugin (el archivo debe estar en la carpeta languages/)
+language: es
+
+# CONFIGURACIÓN DE PERSONAL Y CHAT DE ADMINISTRACIÓN
+admin-join-alert:
+  enable: true # Activar/desactivar alerta de entrada del personal (true/false)
+  permission: "merzeeva.admin.alert" # Permiso para la alerta (OP por defecto)
+
+# CONFIGURACIÓN ANTI-GRIEF Y EFECTOS
+cooldowns:
+  tempban-seconds: 300 # Tiempo de espera para el próximo baneo (en segundos)
+  tempmute-seconds: 60  # Tiempo de espera para el próximo muteo (en segundos)
+
+# Efectos cuando un moderador aplica una sanción a través del menú
+effects:
+  enable-sound: true # Activar sonidos en las sanciones (true/false)
+  ban-sound: "ENTITY_LIGHTNING_BOLT_THUNDER" # Sonido al banear
+  mute-sound: "BLOCK_NOTE_BLOCK_BASS"         # Sonido al mutear
