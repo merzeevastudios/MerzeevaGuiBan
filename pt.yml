@@ -1,0 +1,10 @@
+prefix: "§b§lMerzeevaGuiBan §8» "
+no-permission: "§c[Merzeeva] Você não tem permissão!"
+cooldown-ban: "§c[Anti-Grief] Erro! Você não pode banir tão frequentemente. Aguarde §e{time} §cseg."
+cooldown-mute: "§c[Anti-Grief] Erro! Limite de velocidade excedido. Aguarde §e{time} §cseg."
+admin-join: "§d[Equipe] §6A Direção do Projeto §c{admin} §6entrou na rede!"
+
+broadcast:
+  ban: "§c[Tribunal] O administrador §e{admin} §cbanou §e{target} §cpor §a{time}§c. Motivo: §f{reason}"
+  mute: "§e[Tribunal] O administrador §e{admin} §cmutou §e{target} §epor §a{time}§e. Motivo: §f{reason}"
+  warn: "§6[Tribunal] O administrador §e{admin} §calertou o jogador §e{target}§6. Motivo: §f{reason}"
