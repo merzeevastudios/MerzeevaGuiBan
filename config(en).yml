@@ -1,0 +1,27 @@
+###################################################
+#                                                 #
+#    Plugin created by MerzeevaStudios            #
+#                                                 #
+#    Donation details (for coffee ☕):            #
+#    Card: 2202 2085 8741 4815                    #
+#                                                 #
+###################################################
+
+# Main plugin language (the file must be inside the languages/ folder)
+language: en
+
+# STAFF AND ADMIN CHAT SETTINGS
+admin-join-alert:
+  enable: true # Enable/disable higher staff join alert (true/false)
+  permission: "merzeeva.admin.alert" # Permission for the alert (OP by default)
+
+# ANTI-GRIEF AND EFFECTS SETTINGS
+cooldowns:
+  tempban-seconds: 300 # Cooldown for the next ban (in seconds)
+  tempmute-seconds: 60  # Cooldown for the next mute (in seconds)
+
+# Effects when a moderator issues a punishment via the menu
+effects:
+  enable-sound: true # Enable sounds for punishments (true/false)
+  ban-sound: "ENTITY_LIGHTNING_BOLT_THUNDER" # Sound on ban
+  mute-sound: "BLOCK_NOTE_BLOCK_BASS"         # Sound on mute
