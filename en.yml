@@ -1,0 +1,10 @@
+prefix: "§b§lMerzeevaGuiBan §8» "
+no-permission: "§c[Merzeeva] You don't have permission!"
+cooldown-ban: "§c[Anti-Grief] Error! You cannot ban so often. Please wait §e{time} §csec."
+cooldown-mute: "§c[Anti-Grief] Error! Rate limit exceeded. Please wait §e{time} §csec."
+admin-join: "§d[Staff] §6Project Management §c{admin} §6joined the network!"
+
+broadcast:
+  ban: "§c[Court] Administrator §e{admin} §cbanned §e{target} §cfor §a{time}§c. Reason: §f{reason}"
+  mute: "§e[Court] Administrator §e{admin} §cmuted §e{target} §efor §a{time}§e. Reason: §f{reason}"
+  warn: "§6[Court] Administrator §e{admin} §6issued a warning to §e{target}§6. Reason: §f{reason}"
