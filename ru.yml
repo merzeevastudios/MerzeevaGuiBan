@@ -1,0 +1,10 @@
+prefix: "§b§lMerzeevaGuiBan §8» "
+no-permission: "§c[Merzeeva] У вас нет прав!"
+cooldown-ban: "§c[Анти-Слив] Ошибка! Вы не можете банить так часто. Подождите ещё §e{time} §cсек."
+cooldown-mute: "§c[Анти-Слив] Ошибка! Скорострельность превышена. Подождите ещё §e{time} §cсек."
+admin-join: "§d[Персонал] §6Руководство проекта §c{admin} §6вошёл в сеть!"
+
+broadcast:
+  ban: "§c[Суд] Администратор §e{admin} §cзабанил §e{target} §cна §a{time}§c. Причина: §f{reason}"
+  mute: "§e[Суд] Администратор §e{admin} §eзамутил §e{target} §eна §a{time}§e. Причина: §f{reason}"
+  warn: "§6[Суд] Администратор §e{admin} §6выдал варн игроку §e{target}§6. Причина: §f{reason}"
