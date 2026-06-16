@@ -1,0 +1,27 @@
+###################################################
+#                                                 #
+#    Plugin créé par MerzeevaStudios              #
+#                                                 #
+#    Détails du don (pour le café ☕):            #
+#    Carte: 2202 2085 8741 4815                   #
+#                                                 #
+###################################################
+
+# Langue principale du plugin (le fichier doit être dans le dossier languages/)
+language: fr
+
+# PARAMÈTRES DU PERSONNEL ET DU CHAT ADMIN
+admin-join-alert:
+  enable: true # Activer/désactiver l'alerte de connexion admin (true/false)
+  permission: "merzeeva.admin.alert" # Permission pour l'alerte (OP par défaut)
+
+# PARAMÈTRES ANTI-GRIEF ET EFFETS
+cooldowns:
+  tempban-seconds: 300 # Temps de recharge pour le prochain bannissement (en sec)
+  tempmute-seconds: 60  # Temps de recharge pour le prochain mute (en sec)
+
+# Effets lorsqu'un modérateur applique une sanction via le menu
+effects:
+  enable-sound: true # Activer les sons pour les sanctions (true/false)
+  ban-sound: "ENTITY_LIGHTNING_BOLT_THUNDER" # Son lors d'un bannissement
+  mute-sound: "BLOCK_NOTE_BLOCK_BASS"         # Son lors d'un mute
