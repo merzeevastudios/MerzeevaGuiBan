@@ -1,0 +1,10 @@
+prefix: "§b§lMerzeevaGuiBan §8» "
+no-permission: "§c[Merzeeva] Du hast keine Berechtigung!"
+cooldown-ban: "§c[Anti-Grief] Fehler! Du kannst nicht so oft bannen. Bitte warte noch §e{time} §cSek."
+cooldown-mute: "§c[Anti-Grief] Fehler! Rate-Limit überschritten. Bitte warte noch §e{time} §cSek."
+admin-join: "§d[Team] §6Projektleitung §c{admin} §6hat das Netzwerk betreten!"
+
+broadcast:
+  ban: "§c[Gericht] Administrator §e{admin} §chat §e{target} §cfür §a{time} §cgebannt. Grund: §f{reason}"
+  mute: "§e[Gericht] Administrator §e{admin} §chat §e{target} §cfür §a{time} §cgemutet. Grund: §f{reason}"
+  warn: "§6[Gericht] Administrator §e{admin} §chat eine Warnung an §e{target} §6erteilt. Grund: §f{reason}"
